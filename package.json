@@ -1,0 +1,16 @@
+{
+  "name": "node-display",
+  "version": "0.1.0",
+  "description": "Rotate Windows Display",
+  "main": "lib/index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "gypfile": true,
+  "author": "",
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "nan": "^2.9.2"
+  }
+}
