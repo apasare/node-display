@@ -25,10 +25,10 @@ NAN_MODULE_INIT(Init) {
 
   v8::Local<v8::FunctionTemplate> displayRotateTpl = Nan::New<v8::FunctionTemplate>(rotate);
   Nan::Set(
-  	target,
-  	Nan::New("rotate").ToLocalChecked(),
-  	Nan::GetFunction(displayRotateTpl).ToLocalChecked()
-	);
+    target,
+    Nan::New("rotate").ToLocalChecked(),
+    Nan::GetFunction(displayRotateTpl).ToLocalChecked()
+  );
 }
 
 NODE_MODULE(DisplayAddon, Init)
